@@ -1,0 +1,14 @@
+# Core graph/data deps for Demo A and subsequent demos
+pandas>=2.0,<3.0
+networkx>=3.0,<4.0
+pyvis>=0.3,<1.0
+
+# Notebook runtime
+jupyter>=1.0
+ipykernel>=6.0
+
+# Optional: additional graph algorithms / community detection
+# python-louvain>=0.16
+
+# Optional: for Neo4j connectivity (Demo D, if running queries locally)
+# neo4j>=5.0

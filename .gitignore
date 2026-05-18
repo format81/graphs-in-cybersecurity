@@ -1,0 +1,110 @@
+# ─────────────────────────────────────────────
+# Python
+# ─────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual environments
+venv/
+.venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# ─────────────────────────────────────────────
+# Jupyter
+# ─────────────────────────────────────────────
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+profile_default/
+ipython_config.py
+
+# ─────────────────────────────────────────────
+# IDEs
+# ─────────────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# ─────────────────────────────────────────────
+# OS — Windows
+# ─────────────────────────────────────────────
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.lnk
+
+# ─────────────────────────────────────────────
+# OS — macOS
+# ─────────────────────────────────────────────
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# ─────────────────────────────────────────────
+# OS — Linux
+# ─────────────────────────────────────────────
+*~
+.fuse_hidden*
+.directory
+.Trash-*
+
+# ─────────────────────────────────────────────
+# Project-specific
+# ─────────────────────────────────────────────
+
+# Packet captures — NEVER commit, often contain customer data
+*.pcap
+*.pcapng
+*.cap
+
+# Notebook intermediate outputs
+demo-a-wireshark/output/
+demo-a-wireshark/output_test/
+
+# Secrets — credentials, .env files, anything with auth
+.env
+.env.*
+secrets/
+*.key
+*.pem
+*.crt
+credentials.json
+config.local.*
+
+# BloodHound — sample data files can be large
+demo-b-bloodhound/data/
+*.zip
+
+# Local notes / drafts
+NOTES.md
+DRAFT.md
+TODO.local.md
+
+# Build artifacts
+*.log
+*.tmp
